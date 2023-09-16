@@ -34,7 +34,14 @@ testGuardOptional()
 
 
 print("name length= \(name?.count)")
+
+// coditional unwrapped
+if let lengthOfName = name?.count{
+    print("Lenght of name unwrapped = \(lengthOfName)")
+}
     
+let lethOfNameNilCoalesed = name?.count ?? 0
+print("lethOfNameNilCoalesed = \(lethOfNameNilCoalesed)")
     
     
     
