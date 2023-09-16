@@ -1,3 +1,8 @@
-import UIKit
+// Collections //
 
-var greeting = "Hello, playground"
+
+
+//Dictionary :unorded collection of key value pairs
+
+var studentIdName:Dictionary<Int, String >=[:]
+var zipCodeDistrict:
